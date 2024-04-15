@@ -1,0 +1,108 @@
+footer {
+    
+    width:100%;
+    
+    bottom:0px;
+    padding: 0;
+    margin: 0;
+    color: darkgreen;
+    text-align: center;
+    border-top: 2px solid white;
+    background-color : black;
+
+}
+
+
+.treeVideos{
+    margin-bottom: 1em;
+    width: 100%; 
+    height: 315px;
+    border: solid 2px darkgreen;
+}
+body{
+    background-color:black;
+    margin: 0;
+    width:100%;
+}
+h1 {     
+    color: grey;
+    
+    margin-top:2.1%;
+    float:right;/*how to move text slightly left*/
+    margin-top: 3.5%;
+}
+main p{
+    color: white;
+}
+h2 {     
+    color: darkgreen;
+}
+header {
+    background-color : rgb(192, 228, 12);   
+    border-bottom: 3px solid white;
+}
+main {
+    height: 75%;
+}
+
+
+.headerImage{
+    position: relative;
+    margin-top: 1.5%;
+    left: 1.5%;
+    width: 10%;
+    border:2px solid darkgreen;
+    border-radius:10px
+}
+
+.dragontree{
+    width:32%;
+    height:33%;
+}
+.horsechestnut{
+    width:32%;
+    height:33%;
+}
+#eaglewood{
+    border: solid 2px green;
+    width: 95%;
+    
+}
+nav{
+    width: 100%;
+    height: 75px;
+    background: darkgreen;
+}
+nav ul{
+    
+    text-align: center;
+    font-size: 1.2em;
+    position: relative;
+    top:35%
+    
+}
+nav ul li{
+    background-color: grey;
+    display: inline;
+    padding: 15px;
+    margin: 4px;
+    border:2px solid rgb(192, 228, 12);
+    border-radius:10px
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+nav ul li:hover{
+    border: solid 2px grey;
+    background-color:rgb(192, 228, 12);
+}
+article{
+    margin-left: 2em;
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+section{
+    float: left;
+}
